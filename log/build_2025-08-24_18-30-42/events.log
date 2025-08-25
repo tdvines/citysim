@@ -1,0 +1,656 @@
+[0.000000] (-) TimerEvent: {}
+[0.000704] (citysim) JobQueued: {'identifier': 'citysim', 'dependencies': OrderedDict()}
+[0.000820] (citysim) JobStarted: {'identifier': 'citysim'}
+[0.008327] (citysim) JobProgress: {'identifier': 'citysim', 'progress': 'cmake'}
+[0.009111] (citysim) Command: {'cmd': ['/usr/bin/cmake', '/home/minnie/gazebo_sim/citysim', '-DCMAKE_INSTALL_PREFIX=/home/minnie/gazebo_sim/citysim/install/citysim'], 'cwd': '/home/minnie/gazebo_sim/citysim/build/citysim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'minnie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/minnie'), ('OLDPWD', '/home/minnie/gazebo_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2074'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'minnie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'minnie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/minnie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minnie-ThinkPad:@/tmp/.ICE-unix/2047,unix/minnie-ThinkPad:/tmp/.ICE-unix/2047'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c03b5493_7b48_4dc1_92de_303d064aaa4a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.216'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/minnie/gazebo_sim/citysim/build/citysim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.018546] (citysim) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.018768] (citysim) StderrLine: {'line': b'  Compatibility with CMake < 2.8.12 will be removed from a future version of\n'}
+[0.018869] (citysim) StderrLine: {'line': b'  CMake.\n'}
+[0.018964] (citysim) StderrLine: {'line': b'\n'}
+[0.019057] (citysim) StderrLine: {'line': b'  Update the VERSION argument <min> value or use a ...<max> suffix to tell\n'}
+[0.019150] (citysim) StderrLine: {'line': b'  CMake that the project does not need compatibility with older versions.\n'}
+[0.019241] (citysim) StderrLine: {'line': b'\n'}
+[0.019331] (citysim) StderrLine: {'line': b'\x1b[0m\n'}
+[0.057157] (citysim) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[0.057447] (citysim) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[0.057547] (citysim) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[0.057639] (citysim) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[0.057729] (citysim) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[0.057819] (citysim) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.057907] (citysim) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[0.057996] (citysim) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[0.058083] (citysim) StderrLine: {'line': b'  CMakeLists.txt:29 (find_package)\n'}
+[0.058171] (citysim) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.058259] (citysim) StderrLine: {'line': b'\x1b[0m\n'}
+[0.058347] (citysim) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.058684] (citysim) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.070005] (citysim) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.099458] (-) TimerEvent: {}
+[0.162923] (citysim) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.199600] (-) TimerEvent: {}
+[0.203475] (citysim) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.236564] (citysim) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.299734] (-) TimerEvent: {}
+[0.400127] (-) TimerEvent: {}
+[0.427195] (citysim) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[0.452487] (citysim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.458779] (citysim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.470625] (citysim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.472666] (citysim) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.473646] (citysim) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[0.479741] (citysim) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.490457] (citysim) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.500226] (-) TimerEvent: {}
+[0.518711] (citysim) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.528297] (citysim) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.542304] (citysim) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.548078] (citysim) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.548344] (citysim) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.554089] (citysim) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.554305] (citysim) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.558776] (citysim) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.558971] (citysim) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.562922] (citysim) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.563054] (citysim) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.567739] (citysim) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.567964] (citysim) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.572515] (citysim) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.600346] (-) TimerEvent: {}
+[0.682849] (citysim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.684798] (citysim) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.685448] (citysim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.700564] (-) TimerEvent: {}
+[0.707145] (citysim) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.717736] (citysim) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.723603] (citysim) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.735559] (citysim) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.772978] (citysim) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[0.779543] (citysim) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.791112] (citysim) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.800710] (-) TimerEvent: {}
+[0.821293] (citysim) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[0.823216] (citysim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.823758] (citysim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.843450] (citysim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.849180] (citysim) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.861339] (citysim) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[0.892736] (citysim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.894571] (citysim) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[0.895147] (citysim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[0.895789] (citysim) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[0.896783] (citysim) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[0.898345] (citysim) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[0.900801] (-) TimerEvent: {}
+[0.910957] (citysim) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[0.911513] (citysim) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[0.913422] (citysim) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[0.914011] (citysim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[0.914423] (citysim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.916970] (citysim) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[0.917546] (citysim) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[0.994639] (citysim) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.000881] (-) TimerEvent: {}
+[1.005539] (citysim) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.018056] (citysim) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.049769] (citysim) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.056591] (citysim) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.068309] (citysim) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.098237] (citysim) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.098718] (citysim) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.099208] (citysim) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.099705] (citysim) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.100962] (-) TimerEvent: {}
+[1.118398] (citysim) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.149399] (citysim) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in plugins/CMakeLists.txt:\n'}
+[1.149624] (citysim) StderrLine: {'line': b'  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run\n'}
+[1.149718] (citysim) StderrLine: {'line': b'  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy\n'}
+[1.149809] (citysim) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.149898] (citysim) StderrLine: {'line': b'\n'}
+[1.149985] (citysim) StderrLine: {'line': b'  For compatibility, CMake is excluding the header file(s):\n'}
+[1.150072] (citysim) StderrLine: {'line': b'\n'}
+[1.150159] (citysim) StderrLine: {'line': b'    "/home/minnie/gazebo_sim/citysim/plugins/LensFlareVisualPlugin.hh"\n'}
+[1.150448] (citysim) StderrLine: {'line': b'\n'}
+[1.150552] (citysim) StderrLine: {'line': b'  from processing by AUTOMOC.  If any of the files should be processed, set\n'}
+[1.150644] (citysim) StderrLine: {'line': b'  CMP0100 to NEW.  If any of the files should not be processed, explicitly\n'}
+[1.150733] (citysim) StderrLine: {'line': b'  exclude them by setting the source file property SKIP_AUTOMOC:\n'}
+[1.150830] (citysim) StderrLine: {'line': b'\n'}
+[1.150919] (citysim) StderrLine: {'line': b'    set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)\n'}
+[1.151009] (citysim) StderrLine: {'line': b'\n'}
+[1.151096] (citysim) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.151185] (citysim) StderrLine: {'line': b'\x1b[0m\n'}
+[1.151276] (citysim) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in plugins/CMakeLists.txt:\n'}
+[1.151554] (citysim) StderrLine: {'line': b'  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run\n'}
+[1.151653] (citysim) StderrLine: {'line': b'  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy\n'}
+[1.151745] (citysim) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.151835] (citysim) StderrLine: {'line': b'\n'}
+[1.151924] (citysim) StderrLine: {'line': b'  For compatibility, CMake is excluding the header file(s):\n'}
+[1.152013] (citysim) StderrLine: {'line': b'\n'}
+[1.152122] (citysim) StderrLine: {'line': b'    "/home/minnie/gazebo_sim/citysim/plugins/BloomVisualPlugin.hh"\n'}
+[1.152211] (citysim) StderrLine: {'line': b'\n'}
+[1.152299] (citysim) StderrLine: {'line': b'  from processing by AUTOMOC.  If any of the files should be processed, set\n'}
+[1.152387] (citysim) StderrLine: {'line': b'  CMP0100 to NEW.  If any of the files should not be processed, explicitly\n'}
+[1.152487] (citysim) StderrLine: {'line': b'  exclude them by setting the source file property SKIP_AUTOMOC:\n'}
+[1.152575] (citysim) StderrLine: {'line': b'\n'}
+[1.152663] (citysim) StderrLine: {'line': b'    set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)\n'}
+[1.152750] (citysim) StderrLine: {'line': b'\n'}
+[1.152838] (citysim) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.152925] (citysim) StderrLine: {'line': b'\x1b[0m\n'}
+[1.153013] (citysim) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in plugins/CMakeLists.txt:\n'}
+[1.153101] (citysim) StderrLine: {'line': b'  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run\n'}
+[1.153190] (citysim) StderrLine: {'line': b'  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy\n'}
+[1.153278] (citysim) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[1.153366] (citysim) StderrLine: {'line': b'\n'}
+[1.153454] (citysim) StderrLine: {'line': b'  For compatibility, CMake is excluding the header file(s):\n'}
+[1.153583] (citysim) StderrLine: {'line': b'\n'}
+[1.153735] (citysim) StderrLine: {'line': b'    "/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.hh"\n'}
+[1.153893] (citysim) StderrLine: {'line': b'\n'}
+[1.154024] (citysim) StderrLine: {'line': b'  from processing by AUTOMOC.  If any of the files should be processed, set\n'}
+[1.154114] (citysim) StderrLine: {'line': b'  CMP0100 to NEW.  If any of the files should not be processed, explicitly\n'}
+[1.154204] (citysim) StderrLine: {'line': b'  exclude them by setting the source file property SKIP_AUTOMOC:\n'}
+[1.154292] (citysim) StderrLine: {'line': b'\n'}
+[1.154380] (citysim) StderrLine: {'line': b'    set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)\n'}
+[1.154469] (citysim) StderrLine: {'line': b'\n'}
+[1.154556] (citysim) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.154645] (citysim) StderrLine: {'line': b'\x1b[0m\n'}
+[1.185535] (citysim) StdoutLine: {'line': b'-- Generating done\n'}
+[1.193701] (citysim) StdoutLine: {'line': b'-- Build files have been written to: /home/minnie/gazebo_sim/citysim/build/citysim\n'}
+[1.201083] (-) TimerEvent: {}
+[1.204876] (citysim) CommandEnded: {'returncode': 0}
+[1.205817] (citysim) JobProgress: {'identifier': 'citysim', 'progress': 'build'}
+[1.207620] (citysim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/minnie/gazebo_sim/citysim/build/citysim', '--', '-j8', '-l8'], 'cwd': '/home/minnie/gazebo_sim/citysim/build/citysim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'minnie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/minnie'), ('OLDPWD', '/home/minnie/gazebo_sim'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2074'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'minnie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'minnie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/minnie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minnie-ThinkPad:@/tmp/.ICE-unix/2047,unix/minnie-ThinkPad:/tmp/.ICE-unix/2047'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/c03b5493_7b48_4dc1_92de_303d064aaa4a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.216'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/minnie/gazebo_sim/citysim/build/citysim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[1.256860] (citysim) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mAutomatic MOC for target BloomVisualPlugin\x1b[0m\n'}
+[1.257092] (citysim) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mAutomatic MOC for target LensFlareVisualPlugin\x1b[0m\n'}
+[1.257200] (citysim) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mAutomatic MOC for target TrafficLightsGUIPlugin\x1b[0m\n'}
+[1.283300] (citysim) StdoutLine: {'line': b'[ 25%] Built target LensFlareVisualPlugin_autogen\n'}
+[1.283578] (citysim) StdoutLine: {'line': b'[ 25%] Built target BloomVisualPlugin_autogen\n'}
+[1.283733] (citysim) StdoutLine: {'line': b'[ 25%] Built target TrafficLightsGUIPlugin_autogen\n'}
+[1.301207] (-) TimerEvent: {}
+[1.301851] (citysim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.302088] (citysim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin.cc.o\x1b[0m\n'}
+[1.302245] (citysim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.o\x1b[0m\n'}
+[1.302395] (citysim) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.401315] (-) TimerEvent: {}
+[1.501663] (-) TimerEvent: {}
+[1.602011] (-) TimerEvent: {}
+[1.702349] (-) TimerEvent: {}
+[1.802691] (-) TimerEvent: {}
+[1.903028] (-) TimerEvent: {}
+[2.003384] (-) TimerEvent: {}
+[2.103738] (-) TimerEvent: {}
+[2.204103] (-) TimerEvent: {}
+[2.304515] (-) TimerEvent: {}
+[2.404916] (-) TimerEvent: {}
+[2.505261] (-) TimerEvent: {}
+[2.605593] (-) TimerEvent: {}
+[2.705926] (-) TimerEvent: {}
+[2.806257] (-) TimerEvent: {}
+[2.906594] (-) TimerEvent: {}
+[3.006944] (-) TimerEvent: {}
+[3.107277] (-) TimerEvent: {}
+[3.207613] (-) TimerEvent: {}
+[3.307951] (-) TimerEvent: {}
+[3.408306] (-) TimerEvent: {}
+[3.508649] (-) TimerEvent: {}
+[3.608976] (-) TimerEvent: {}
+[3.709305] (-) TimerEvent: {}
+[3.809664] (-) TimerEvent: {}
+[3.910025] (-) TimerEvent: {}
+[4.010367] (-) TimerEvent: {}
+[4.110711] (-) TimerEvent: {}
+[4.211065] (-) TimerEvent: {}
+[4.311420] (-) TimerEvent: {}
+[4.411763] (-) TimerEvent: {}
+[4.512125] (-) TimerEvent: {}
+[4.612449] (-) TimerEvent: {}
+[4.712808] (-) TimerEvent: {}
+[4.813149] (-) TimerEvent: {}
+[4.913536] (-) TimerEvent: {}
+[5.013892] (-) TimerEvent: {}
+[5.114241] (-) TimerEvent: {}
+[5.214590] (-) TimerEvent: {}
+[5.314943] (-) TimerEvent: {}
+[5.415329] (-) TimerEvent: {}
+[5.515685] (-) TimerEvent: {}
+[5.616116] (-) TimerEvent: {}
+[5.716449] (-) TimerEvent: {}
+[5.816783] (-) TimerEvent: {}
+[5.917119] (-) TimerEvent: {}
+[6.017470] (-) TimerEvent: {}
+[6.117830] (-) TimerEvent: {}
+[6.218166] (-) TimerEvent: {}
+[6.318497] (-) TimerEvent: {}
+[6.418825] (-) TimerEvent: {}
+[6.519154] (-) TimerEvent: {}
+[6.619495] (-) TimerEvent: {}
+[6.719864] (-) TimerEvent: {}
+[6.820202] (-) TimerEvent: {}
+[6.920535] (-) TimerEvent: {}
+[7.020862] (-) TimerEvent: {}
+[7.121201] (-) TimerEvent: {}
+[7.221535] (-) TimerEvent: {}
+[7.321905] (-) TimerEvent: {}
+[7.422263] (-) TimerEvent: {}
+[7.522624] (-) TimerEvent: {}
+[7.622984] (-) TimerEvent: {}
+[7.723326] (-) TimerEvent: {}
+[7.823668] (-) TimerEvent: {}
+[7.924002] (-) TimerEvent: {}
+[8.024346] (-) TimerEvent: {}
+[8.124677] (-) TimerEvent: {}
+[8.225011] (-) TimerEvent: {}
+[8.325346] (-) TimerEvent: {}
+[8.425695] (-) TimerEvent: {}
+[8.526042] (-) TimerEvent: {}
+[8.626373] (-) TimerEvent: {}
+[8.726702] (-) TimerEvent: {}
+[8.827034] (-) TimerEvent: {}
+[8.927367] (-) TimerEvent: {}
+[9.027700] (-) TimerEvent: {}
+[9.128039] (-) TimerEvent: {}
+[9.228393] (-) TimerEvent: {}
+[9.328735] (-) TimerEvent: {}
+[9.429067] (-) TimerEvent: {}
+[9.529397] (-) TimerEvent: {}
+[9.629725] (-) TimerEvent: {}
+[9.730062] (-) TimerEvent: {}
+[9.830401] (-) TimerEvent: {}
+[9.930739] (-) TimerEvent: {}
+[10.031088] (-) TimerEvent: {}
+[10.131430] (-) TimerEvent: {}
+[10.231774] (-) TimerEvent: {}
+[10.332140] (-) TimerEvent: {}
+[10.432486] (-) TimerEvent: {}
+[10.532823] (-) TimerEvent: {}
+[10.633154] (-) TimerEvent: {}
+[10.733528] (-) TimerEvent: {}
+[10.833854] (-) TimerEvent: {}
+[10.934196] (-) TimerEvent: {}
+[11.034548] (-) TimerEvent: {}
+[11.134887] (-) TimerEvent: {}
+[11.235248] (-) TimerEvent: {}
+[11.335589] (-) TimerEvent: {}
+[11.435934] (-) TimerEvent: {}
+[11.536290] (-) TimerEvent: {}
+[11.636636] (-) TimerEvent: {}
+[11.736972] (-) TimerEvent: {}
+[11.837318] (-) TimerEvent: {}
+[11.937663] (-) TimerEvent: {}
+[12.038013] (-) TimerEvent: {}
+[12.138363] (-) TimerEvent: {}
+[12.238726] (-) TimerEvent: {}
+[12.339067] (-) TimerEvent: {}
+[12.439390] (-) TimerEvent: {}
+[12.539771] (-) TimerEvent: {}
+[12.640137] (-) TimerEvent: {}
+[12.740539] (-) TimerEvent: {}
+[12.840899] (-) TimerEvent: {}
+[12.941274] (-) TimerEvent: {}
+[13.041637] (-) TimerEvent: {}
+[13.141990] (-) TimerEvent: {}
+[13.242328] (-) TimerEvent: {}
+[13.342683] (-) TimerEvent: {}
+[13.443025] (-) TimerEvent: {}
+[13.543369] (-) TimerEvent: {}
+[13.644125] (-) TimerEvent: {}
+[13.744474] (-) TimerEvent: {}
+[13.844826] (-) TimerEvent: {}
+[13.945193] (-) TimerEvent: {}
+[14.045556] (-) TimerEvent: {}
+[14.145908] (-) TimerEvent: {}
+[14.246258] (-) TimerEvent: {}
+[14.346593] (-) TimerEvent: {}
+[14.446933] (-) TimerEvent: {}
+[14.547277] (-) TimerEvent: {}
+[14.647602] (-) TimerEvent: {}
+[14.747940] (-) TimerEvent: {}
+[14.848294] (-) TimerEvent: {}
+[14.948628] (-) TimerEvent: {}
+[15.048960] (-) TimerEvent: {}
+[15.149286] (-) TimerEvent: {}
+[15.249614] (-) TimerEvent: {}
+[15.349933] (-) TimerEvent: {}
+[15.450241] (-) TimerEvent: {}
+[15.550564] (-) TimerEvent: {}
+[15.650908] (-) TimerEvent: {}
+[15.751327] (-) TimerEvent: {}
+[15.851728] (-) TimerEvent: {}
+[15.952145] (-) TimerEvent: {}
+[16.052542] (-) TimerEvent: {}
+[16.152937] (-) TimerEvent: {}
+[16.253345] (-) TimerEvent: {}
+[16.354469] (-) TimerEvent: {}
+[16.454781] (-) TimerEvent: {}
+[16.555146] (-) TimerEvent: {}
+[16.655617] (-) TimerEvent: {}
+[16.756174] (-) TimerEvent: {}
+[16.856671] (-) TimerEvent: {}
+[16.957118] (-) TimerEvent: {}
+[17.057585] (-) TimerEvent: {}
+[17.158035] (-) TimerEvent: {}
+[17.258490] (-) TimerEvent: {}
+[17.358929] (-) TimerEvent: {}
+[17.459385] (-) TimerEvent: {}
+[17.559820] (-) TimerEvent: {}
+[17.660322] (-) TimerEvent: {}
+[17.760771] (-) TimerEvent: {}
+[17.861229] (-) TimerEvent: {}
+[17.961677] (-) TimerEvent: {}
+[18.062145] (-) TimerEvent: {}
+[18.162558] (-) TimerEvent: {}
+[18.263001] (-) TimerEvent: {}
+[18.363450] (-) TimerEvent: {}
+[18.463894] (-) TimerEvent: {}
+[18.564348] (-) TimerEvent: {}
+[18.664731] (-) TimerEvent: {}
+[18.765159] (-) TimerEvent: {}
+[18.865650] (-) TimerEvent: {}
+[18.966114] (-) TimerEvent: {}
+[19.066586] (-) TimerEvent: {}
+[19.167072] (-) TimerEvent: {}
+[19.267473] (-) TimerEvent: {}
+[19.367892] (-) TimerEvent: {}
+[19.468328] (-) TimerEvent: {}
+[19.568826] (-) TimerEvent: {}
+[19.669247] (-) TimerEvent: {}
+[19.769606] (-) TimerEvent: {}
+[19.870007] (-) TimerEvent: {}
+[19.970422] (-) TimerEvent: {}
+[20.070824] (-) TimerEvent: {}
+[20.171320] (-) TimerEvent: {}
+[20.271813] (-) TimerEvent: {}
+[20.372346] (-) TimerEvent: {}
+[20.472835] (-) TimerEvent: {}
+[20.573370] (-) TimerEvent: {}
+[20.673880] (-) TimerEvent: {}
+[20.774383] (-) TimerEvent: {}
+[20.875495] (-) TimerEvent: {}
+[20.976076] (-) TimerEvent: {}
+[21.076479] (-) TimerEvent: {}
+[21.176941] (-) TimerEvent: {}
+[21.277424] (-) TimerEvent: {}
+[21.294823] (citysim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid gazebo::TrafficLightsGUIPlugin::OnKeyPress(ConstAnyPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.295173] (citysim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:80:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[Kgazebo::common::Color\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[21.295363] (citysim) StderrLine: {'line': b'   80 |   auto red = std::make_pair(gazebo::common::Color::\x1b[01;31m\x1b[KRed\x1b[m\x1b[K, "red");\n'}
+[21.295528] (citysim) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[21.295696] (citysim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:81:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[Kgazebo::common::Color\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[21.295865] (citysim) StderrLine: {'line': b'   81 |   auto yellow = std::make_pair(gazebo::common::Color::\x1b[01;31m\x1b[KYellow\x1b[m\x1b[K, "yellow");\n'}
+[21.296026] (citysim) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[21.296227] (citysim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:82:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[Kgazebo::common::Color\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[21.296392] (citysim) StderrLine: {'line': b'   82 |   auto green = std::make_pair(gazebo::common::Color::\x1b[01;31m\x1b[KGreen\x1b[m\x1b[K, "green");\n'}
+[21.296558] (citysim) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[21.296723] (citysim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:83:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kincomplete type \xe2\x80\x98\x1b[01m\x1b[Kgazebo::common::Color\x1b[m\x1b[K\xe2\x80\x99 used in nested name specifier\n'}
+[21.296895] (citysim) StderrLine: {'line': b'   83 |   auto black = gazebo::common::Color::\x1b[01;31m\x1b[KBlack\x1b[m\x1b[K;\n'}
+[21.297081] (citysim) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[21.299650] (citysim) StderrLine: {'line': b'\x1b[01m\x1b[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:92:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to deduce \xe2\x80\x98\x1b[01m\x1b[Kstd::initializer_list<auto>&&\x1b[m\x1b[K\xe2\x80\x99 from \xe2\x80\x98\x1b[01m\x1b[K{red, yellow, green}\x1b[m\x1b[K\xe2\x80\x99\n'}
+[21.299961] (citysim) StderrLine: {'line': b'   92 |       for (auto c : {red, yellow, green\x1b[01;31m\x1b[K}\x1b[m\x1b[K)\n'}
+[21.300226] (citysim) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[21.377559] (-) TimerEvent: {}
+[21.478049] (-) TimerEvent: {}
+[21.578412] (-) TimerEvent: {}
+[21.678736] (-) TimerEvent: {}
+[21.779312] (-) TimerEvent: {}
+[21.879834] (-) TimerEvent: {}
+[21.980267] (-) TimerEvent: {}
+[22.080663] (-) TimerEvent: {}
+[22.181088] (-) TimerEvent: {}
+[22.281506] (-) TimerEvent: {}
+[22.381867] (-) TimerEvent: {}
+[22.482293] (-) TimerEvent: {}
+[22.582764] (-) TimerEvent: {}
+[22.683154] (-) TimerEvent: {}
+[22.783545] (-) TimerEvent: {}
+[22.883964] (-) TimerEvent: {}
+[22.984353] (-) TimerEvent: {}
+[23.084747] (-) TimerEvent: {}
+[23.185191] (-) TimerEvent: {}
+[23.285614] (-) TimerEvent: {}
+[23.386029] (-) TimerEvent: {}
+[23.486545] (-) TimerEvent: {}
+[23.587253] (-) TimerEvent: {}
+[23.687796] (-) TimerEvent: {}
+[23.788225] (-) TimerEvent: {}
+[23.888644] (-) TimerEvent: {}
+[23.989118] (-) TimerEvent: {}
+[24.089501] (-) TimerEvent: {}
+[24.189811] (-) TimerEvent: {}
+[24.290131] (-) TimerEvent: {}
+[24.390508] (-) TimerEvent: {}
+[24.490865] (-) TimerEvent: {}
+[24.591203] (-) TimerEvent: {}
+[24.691624] (-) TimerEvent: {}
+[24.792012] (-) TimerEvent: {}
+[24.892335] (-) TimerEvent: {}
+[24.992691] (-) TimerEvent: {}
+[25.066694] (citysim) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libBloomVisualPlugin.so\x1b[0m\n'}
+[25.092790] (-) TimerEvent: {}
+[25.193240] (-) TimerEvent: {}
+[25.293807] (-) TimerEvent: {}
+[25.394351] (-) TimerEvent: {}
+[25.396257] (citysim) StdoutLine: {'line': b'[ 66%] Built target BloomVisualPlugin\n'}
+[25.418402] (citysim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin.cc.o\x1b[0m\n'}
+[25.418808] (citysim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[25.494456] (-) TimerEvent: {}
+[25.594927] (-) TimerEvent: {}
+[25.695703] (-) TimerEvent: {}
+[25.796124] (-) TimerEvent: {}
+[25.896524] (-) TimerEvent: {}
+[25.997020] (-) TimerEvent: {}
+[26.005855] (citysim) StderrLine: {'line': b'gmake[2]: *** [plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make:90: plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.o] Error 1\n'}
+[26.006205] (citysim) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:259: plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/all] Error 2\n'}
+[26.006383] (citysim) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[26.097116] (-) TimerEvent: {}
+[26.197506] (-) TimerEvent: {}
+[26.297805] (-) TimerEvent: {}
+[26.398211] (-) TimerEvent: {}
+[26.498610] (-) TimerEvent: {}
+[26.598932] (-) TimerEvent: {}
+[26.699314] (-) TimerEvent: {}
+[26.799703] (-) TimerEvent: {}
+[26.900075] (-) TimerEvent: {}
+[27.000418] (-) TimerEvent: {}
+[27.100796] (-) TimerEvent: {}
+[27.201214] (-) TimerEvent: {}
+[27.301685] (-) TimerEvent: {}
+[27.402134] (-) TimerEvent: {}
+[27.502497] (-) TimerEvent: {}
+[27.602878] (-) TimerEvent: {}
+[27.703243] (-) TimerEvent: {}
+[27.803621] (-) TimerEvent: {}
+[27.903942] (-) TimerEvent: {}
+[28.004341] (-) TimerEvent: {}
+[28.104882] (-) TimerEvent: {}
+[28.205419] (-) TimerEvent: {}
+[28.305817] (-) TimerEvent: {}
+[28.406203] (-) TimerEvent: {}
+[28.506618] (-) TimerEvent: {}
+[28.606995] (-) TimerEvent: {}
+[28.707372] (-) TimerEvent: {}
+[28.807735] (-) TimerEvent: {}
+[28.908144] (-) TimerEvent: {}
+[29.008492] (-) TimerEvent: {}
+[29.108801] (-) TimerEvent: {}
+[29.209180] (-) TimerEvent: {}
+[29.309671] (-) TimerEvent: {}
+[29.410028] (-) TimerEvent: {}
+[29.510356] (-) TimerEvent: {}
+[29.611080] (-) TimerEvent: {}
+[29.711464] (-) TimerEvent: {}
+[29.811849] (-) TimerEvent: {}
+[29.912166] (-) TimerEvent: {}
+[30.012517] (-) TimerEvent: {}
+[30.112875] (-) TimerEvent: {}
+[30.213160] (-) TimerEvent: {}
+[30.313480] (-) TimerEvent: {}
+[30.413809] (-) TimerEvent: {}
+[30.514135] (-) TimerEvent: {}
+[30.614493] (-) TimerEvent: {}
+[30.714833] (-) TimerEvent: {}
+[30.815173] (-) TimerEvent: {}
+[30.915544] (-) TimerEvent: {}
+[31.015872] (-) TimerEvent: {}
+[31.116248] (-) TimerEvent: {}
+[31.216571] (-) TimerEvent: {}
+[31.316903] (-) TimerEvent: {}
+[31.417231] (-) TimerEvent: {}
+[31.517561] (-) TimerEvent: {}
+[31.617889] (-) TimerEvent: {}
+[31.718221] (-) TimerEvent: {}
+[31.818547] (-) TimerEvent: {}
+[31.918872] (-) TimerEvent: {}
+[32.019195] (-) TimerEvent: {}
+[32.119519] (-) TimerEvent: {}
+[32.219854] (-) TimerEvent: {}
+[32.320231] (-) TimerEvent: {}
+[32.420567] (-) TimerEvent: {}
+[32.520896] (-) TimerEvent: {}
+[32.621229] (-) TimerEvent: {}
+[32.721551] (-) TimerEvent: {}
+[32.821878] (-) TimerEvent: {}
+[32.922206] (-) TimerEvent: {}
+[33.022539] (-) TimerEvent: {}
+[33.122892] (-) TimerEvent: {}
+[33.223225] (-) TimerEvent: {}
+[33.323548] (-) TimerEvent: {}
+[33.423874] (-) TimerEvent: {}
+[33.524211] (-) TimerEvent: {}
+[33.624561] (-) TimerEvent: {}
+[33.724884] (-) TimerEvent: {}
+[33.825249] (-) TimerEvent: {}
+[33.925634] (-) TimerEvent: {}
+[34.026021] (-) TimerEvent: {}
+[34.126434] (-) TimerEvent: {}
+[34.226776] (-) TimerEvent: {}
+[34.327102] (-) TimerEvent: {}
+[34.427431] (-) TimerEvent: {}
+[34.527810] (-) TimerEvent: {}
+[34.628125] (-) TimerEvent: {}
+[34.728446] (-) TimerEvent: {}
+[34.828775] (-) TimerEvent: {}
+[34.929104] (-) TimerEvent: {}
+[35.029427] (-) TimerEvent: {}
+[35.129753] (-) TimerEvent: {}
+[35.230081] (-) TimerEvent: {}
+[35.330408] (-) TimerEvent: {}
+[35.430746] (-) TimerEvent: {}
+[35.531070] (-) TimerEvent: {}
+[35.631395] (-) TimerEvent: {}
+[35.731720] (-) TimerEvent: {}
+[35.832062] (-) TimerEvent: {}
+[35.932384] (-) TimerEvent: {}
+[36.032710] (-) TimerEvent: {}
+[36.133045] (-) TimerEvent: {}
+[36.233370] (-) TimerEvent: {}
+[36.333708] (-) TimerEvent: {}
+[36.434033] (-) TimerEvent: {}
+[36.534368] (-) TimerEvent: {}
+[36.634694] (-) TimerEvent: {}
+[36.735029] (-) TimerEvent: {}
+[36.835368] (-) TimerEvent: {}
+[36.935703] (-) TimerEvent: {}
+[37.036030] (-) TimerEvent: {}
+[37.136364] (-) TimerEvent: {}
+[37.236692] (-) TimerEvent: {}
+[37.337016] (-) TimerEvent: {}
+[37.437342] (-) TimerEvent: {}
+[37.537669] (-) TimerEvent: {}
+[37.638002] (-) TimerEvent: {}
+[37.738333] (-) TimerEvent: {}
+[37.838666] (-) TimerEvent: {}
+[37.938997] (-) TimerEvent: {}
+[38.039344] (-) TimerEvent: {}
+[38.139677] (-) TimerEvent: {}
+[38.240012] (-) TimerEvent: {}
+[38.340379] (-) TimerEvent: {}
+[38.440745] (-) TimerEvent: {}
+[38.541074] (-) TimerEvent: {}
+[38.641411] (-) TimerEvent: {}
+[38.741749] (-) TimerEvent: {}
+[38.842076] (-) TimerEvent: {}
+[38.942408] (-) TimerEvent: {}
+[39.042744] (-) TimerEvent: {}
+[39.143076] (-) TimerEvent: {}
+[39.243398] (-) TimerEvent: {}
+[39.343760] (-) TimerEvent: {}
+[39.444100] (-) TimerEvent: {}
+[39.544420] (-) TimerEvent: {}
+[39.644742] (-) TimerEvent: {}
+[39.745067] (-) TimerEvent: {}
+[39.845401] (-) TimerEvent: {}
+[39.945796] (-) TimerEvent: {}
+[40.046580] (-) TimerEvent: {}
+[40.146887] (-) TimerEvent: {}
+[40.247221] (-) TimerEvent: {}
+[40.347564] (-) TimerEvent: {}
+[40.447905] (-) TimerEvent: {}
+[40.548252] (-) TimerEvent: {}
+[40.648578] (-) TimerEvent: {}
+[40.748909] (-) TimerEvent: {}
+[40.849238] (-) TimerEvent: {}
+[40.949561] (-) TimerEvent: {}
+[41.049892] (-) TimerEvent: {}
+[41.150227] (-) TimerEvent: {}
+[41.250559] (-) TimerEvent: {}
+[41.350901] (-) TimerEvent: {}
+[41.451278] (-) TimerEvent: {}
+[41.551603] (-) TimerEvent: {}
+[41.651936] (-) TimerEvent: {}
+[41.752274] (-) TimerEvent: {}
+[41.852614] (-) TimerEvent: {}
+[41.952962] (-) TimerEvent: {}
+[42.053291] (-) TimerEvent: {}
+[42.153619] (-) TimerEvent: {}
+[42.253960] (-) TimerEvent: {}
+[42.354289] (-) TimerEvent: {}
+[42.454621] (-) TimerEvent: {}
+[42.554952] (-) TimerEvent: {}
+[42.655284] (-) TimerEvent: {}
+[42.755619] (-) TimerEvent: {}
+[42.855950] (-) TimerEvent: {}
+[42.956282] (-) TimerEvent: {}
+[43.056616] (-) TimerEvent: {}
+[43.156942] (-) TimerEvent: {}
+[43.257267] (-) TimerEvent: {}
+[43.357597] (-) TimerEvent: {}
+[43.457929] (-) TimerEvent: {}
+[43.558264] (-) TimerEvent: {}
+[43.658599] (-) TimerEvent: {}
+[43.758934] (-) TimerEvent: {}
+[43.859269] (-) TimerEvent: {}
+[43.959603] (-) TimerEvent: {}
+[44.059934] (-) TimerEvent: {}
+[44.160307] (-) TimerEvent: {}
+[44.260680] (-) TimerEvent: {}
+[44.361011] (-) TimerEvent: {}
+[44.461396] (-) TimerEvent: {}
+[44.561770] (-) TimerEvent: {}
+[44.662139] (-) TimerEvent: {}
+[44.762454] (-) TimerEvent: {}
+[44.862769] (-) TimerEvent: {}
+[44.963107] (-) TimerEvent: {}
+[45.063477] (-) TimerEvent: {}
+[45.163846] (-) TimerEvent: {}
+[45.264177] (-) TimerEvent: {}
+[45.364496] (-) TimerEvent: {}
+[45.464814] (-) TimerEvent: {}
+[45.565138] (-) TimerEvent: {}
+[45.665462] (-) TimerEvent: {}
+[45.765781] (-) TimerEvent: {}
+[45.866103] (-) TimerEvent: {}
+[45.966423] (-) TimerEvent: {}
+[46.066752] (-) TimerEvent: {}
+[46.167073] (-) TimerEvent: {}
+[46.267406] (-) TimerEvent: {}
+[46.367730] (-) TimerEvent: {}
+[46.468078] (-) TimerEvent: {}
+[46.568402] (-) TimerEvent: {}
+[46.668725] (-) TimerEvent: {}
+[46.769049] (-) TimerEvent: {}
+[46.869366] (-) TimerEvent: {}
+[46.937889] (citysim) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libLensFlareVisualPlugin.so\x1b[0m\n'}
+[46.969481] (-) TimerEvent: {}
+[47.069821] (-) TimerEvent: {}
+[47.122564] (citysim) StdoutLine: {'line': b'[ 91%] Built target LensFlareVisualPlugin\n'}
+[47.123598] (citysim) StderrLine: {'line': b'gmake: *** [Makefile:156: all] Error 2\n'}
+[47.126560] (citysim) CommandEnded: {'returncode': 2}
+[47.126957] (citysim) JobEnded: {'identifier': 'citysim', 'rc': 2}
+[47.137181] (-) EventReactorShutdown: {}

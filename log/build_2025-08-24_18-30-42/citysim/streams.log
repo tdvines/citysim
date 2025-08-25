@@ -1,0 +1,180 @@
+[0.011s] Invoking command in '/home/minnie/gazebo_sim/citysim/build/citysim': /usr/bin/cmake /home/minnie/gazebo_sim/citysim -DCMAKE_INSTALL_PREFIX=/home/minnie/gazebo_sim/citysim/install/citysim
+[0.018s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.018s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.018s]   CMake.
+[0.018s] 
+[0.018s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.018s]   CMake that the project does not need compatibility with older versions.
+[0.018s] 
+[0.019s] [0m
+[0.057s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.057s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.057s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.057s]   problems in calling code that expects `find_package` result variables
+[0.057s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.057s] Call Stack (most recent call first):
+[0.057s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.057s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.057s]   CMakeLists.txt:29 (find_package)
+[0.057s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.057s] [0m
+[0.058s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.058s] -- Checking for module 'bullet>=2.82'
+[0.069s] --   Found bullet, version 3.05
+[0.162s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.203s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.236s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.427s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.452s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.458s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.470s] -- Searching for dependencies of ignition-math6
+[0.472s] -- Looking for OGRE...
+[0.473s] -- OGRE_PREFIX_WATCH changed.
+[0.479s] -- Checking for module 'OGRE'
+[0.490s] --   Found OGRE, version 1.9.0
+[0.518s] -- Found Ogre Ghadamon (1.9.0)
+[0.528s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.542s] -- Looking for OGRE_Paging...
+[0.547s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.548s] -- Looking for OGRE_Terrain...
+[0.553s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.554s] -- Looking for OGRE_Property...
+[0.558s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.558s] -- Looking for OGRE_RTShaderSystem...
+[0.562s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.562s] -- Looking for OGRE_Volume...
+[0.567s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.567s] -- Looking for OGRE_Overlay...
+[0.572s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.682s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.684s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.685s] -- Searching for dependencies of ignition-transport8
+[0.706s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.717s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.723s] -- Checking for module 'libzmq >= 4'
+[0.735s] --   Found libzmq , version 4.3.4
+[0.772s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.779s] -- Checking for module 'uuid'
+[0.790s] --   Found uuid, version 2.37.2
+[0.821s] -- Found UUID: TRUE  
+[0.822s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.823s] -- Searching for dependencies of ignition-msgs5
+[0.843s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.848s] -- Checking for module 'tinyxml2'
+[0.861s] --   Found tinyxml2, version 9.0.0
+[0.892s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.894s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.895s] -- Searching for dependencies of ignition-common3
+[0.895s] -- Looking for dlfcn.h - found
+[0.896s] -- Looking for libdl - found
+[0.898s] -- Found DL: TRUE  
+[0.910s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[0.911s] -- Searching for <ignition-common3> component [graphics]
+[0.913s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.913s] -- Searching for dependencies of ignition-common3-graphics
+[0.914s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.916s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.917s] -- Searching for dependencies of ignition-fuel_tools4
+[0.994s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.005s] -- Checking for module 'jsoncpp'
+[1.017s] --   Found jsoncpp, version 1.9.5
+[1.049s] -- Found JSONCPP: TRUE  
+[1.056s] -- Checking for module 'libzip'
+[1.068s] --   Found libzip, version 1.7.3
+[1.098s] -- Found ZIP: TRUE  
+[1.098s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.098s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.099s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.118s] -- Configuring done
+[1.149s] [33mCMake Warning (dev) in plugins/CMakeLists.txt:
+[1.149s]   Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
+[1.149s]   "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
+[1.149s]   command to set the policy and suppress this warning.
+[1.149s] 
+[1.149s]   For compatibility, CMake is excluding the header file(s):
+[1.149s] 
+[1.150s]     "/home/minnie/gazebo_sim/citysim/plugins/LensFlareVisualPlugin.hh"
+[1.150s] 
+[1.150s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.150s]   CMP0100 to NEW.  If any of the files should not be processed, explicitly
+[1.150s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.150s] 
+[1.150s]     set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)
+[1.150s] 
+[1.150s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.150s] [0m
+[1.151s] [33mCMake Warning (dev) in plugins/CMakeLists.txt:
+[1.151s]   Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
+[1.151s]   "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
+[1.151s]   command to set the policy and suppress this warning.
+[1.151s] 
+[1.151s]   For compatibility, CMake is excluding the header file(s):
+[1.151s] 
+[1.151s]     "/home/minnie/gazebo_sim/citysim/plugins/BloomVisualPlugin.hh"
+[1.151s] 
+[1.152s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.152s]   CMP0100 to NEW.  If any of the files should not be processed, explicitly
+[1.152s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.152s] 
+[1.152s]     set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)
+[1.152s] 
+[1.152s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.152s] [0m
+[1.152s] [33mCMake Warning (dev) in plugins/CMakeLists.txt:
+[1.152s]   Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
+[1.152s]   "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
+[1.153s]   command to set the policy and suppress this warning.
+[1.153s] 
+[1.153s]   For compatibility, CMake is excluding the header file(s):
+[1.153s] 
+[1.153s]     "/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.hh"
+[1.153s] 
+[1.153s]   from processing by AUTOMOC.  If any of the files should be processed, set
+[1.153s]   CMP0100 to NEW.  If any of the files should not be processed, explicitly
+[1.153s]   exclude them by setting the source file property SKIP_AUTOMOC:
+[1.154s] 
+[1.154s]     set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)
+[1.154s] 
+[1.154s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.154s] [0m
+[1.185s] -- Generating done
+[1.193s] -- Build files have been written to: /home/minnie/gazebo_sim/citysim/build/citysim
+[1.204s] Invoked command in '/home/minnie/gazebo_sim/citysim/build/citysim' returned '0': /usr/bin/cmake /home/minnie/gazebo_sim/citysim -DCMAKE_INSTALL_PREFIX=/home/minnie/gazebo_sim/citysim/install/citysim
+[1.208s] Invoking command in '/home/minnie/gazebo_sim/citysim/build/citysim': /usr/bin/cmake --build /home/minnie/gazebo_sim/citysim/build/citysim -- -j8 -l8
+[1.256s] [ 16%] [34m[1mAutomatic MOC for target BloomVisualPlugin[0m
+[1.256s] [ 16%] [34m[1mAutomatic MOC for target LensFlareVisualPlugin[0m
+[1.256s] [ 25%] [34m[1mAutomatic MOC for target TrafficLightsGUIPlugin[0m
+[1.283s] [ 25%] Built target LensFlareVisualPlugin_autogen
+[1.283s] [ 25%] Built target BloomVisualPlugin_autogen
+[1.283s] [ 25%] Built target TrafficLightsGUIPlugin_autogen
+[1.301s] [ 58%] [32mBuilding CXX object plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin_autogen/mocs_compilation.cpp.o[0m
+[1.301s] [ 58%] [32mBuilding CXX object plugins/CMakeFiles/BloomVisualPlugin.dir/BloomVisualPlugin.cc.o[0m
+[1.302s] [ 58%] [32mBuilding CXX object plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.o[0m
+[1.302s] [ 58%] [32mBuilding CXX object plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin_autogen/mocs_compilation.cpp.o[0m
+[21.294s] [01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:[m[K In member function ‘[01m[Kvoid gazebo::TrafficLightsGUIPlugin::OnKeyPress(ConstAnyPtr&)[m[K’:
+[21.294s] [01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:80:52:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kgazebo::common::Color[m[K’ used in nested name specifier
+[21.295s]    80 |   auto red = std::make_pair(gazebo::common::Color::[01;31m[KRed[m[K, "red");
+[21.295s]       |                                                    [01;31m[K^~~[m[K
+[21.295s] [01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:81:55:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kgazebo::common::Color[m[K’ used in nested name specifier
+[21.295s]    81 |   auto yellow = std::make_pair(gazebo::common::Color::[01;31m[KYellow[m[K, "yellow");
+[21.295s]       |                                                       [01;31m[K^~~~~~[m[K
+[21.296s] [01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:82:54:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kgazebo::common::Color[m[K’ used in nested name specifier
+[21.296s]    82 |   auto green = std::make_pair(gazebo::common::Color::[01;31m[KGreen[m[K, "green");
+[21.296s]       |                                                      [01;31m[K^~~~~[m[K
+[21.296s] [01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:83:39:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kgazebo::common::Color[m[K’ used in nested name specifier
+[21.296s]    83 |   auto black = gazebo::common::Color::[01;31m[KBlack[m[K;
+[21.296s]       |                                       [01;31m[K^~~~~[m[K
+[21.299s] [01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:92:40:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kstd::initializer_list<auto>&&[m[K’ from ‘[01m[K{red, yellow, green}[m[K’
+[21.299s]    92 |       for (auto c : {red, yellow, green[01;31m[K}[m[K)
+[21.300s]       |                                        [01;31m[K^[m[K
+[25.066s] [ 66%] [32m[1mLinking CXX shared library libBloomVisualPlugin.so[0m
+[25.396s] [ 66%] Built target BloomVisualPlugin
+[25.418s] [ 83%] [32mBuilding CXX object plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin.cc.o[0m
+[25.418s] [ 83%] [32mBuilding CXX object plugins/CMakeFiles/LensFlareVisualPlugin.dir/LensFlareVisualPlugin_autogen/mocs_compilation.cpp.o[0m
+[26.005s] gmake[2]: *** [plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make:90: plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.o] Error 1
+[26.005s] gmake[1]: *** [CMakeFiles/Makefile2:259: plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/all] Error 2
+[26.006s] gmake[1]: *** Waiting for unfinished jobs....
+[46.937s] [ 91%] [32m[1mLinking CXX shared library libLensFlareVisualPlugin.so[0m
+[47.122s] [ 91%] Built target LensFlareVisualPlugin
+[47.123s] gmake: *** [Makefile:156: all] Error 2
+[47.126s] Invoked command in '/home/minnie/gazebo_sim/citysim/build/citysim' returned '2': /usr/bin/cmake --build /home/minnie/gazebo_sim/citysim/build/citysim -- -j8 -l8

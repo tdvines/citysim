@@ -1,0 +1,36 @@
+[0.011s] Invoking command in '/home/minnie/gazebo_sim/citysim/build/citysim': /usr/bin/cmake /home/minnie/gazebo_sim/citysim -DCMAKE_INSTALL_PREFIX=/home/minnie/gazebo_sim/citysim/install/citysim
+[0.019s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.020s]   Compatibility with CMake < 2.8.12 will be removed from a future version of
+[0.020s]   CMake.
+[0.020s] 
+[0.020s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[0.020s]   CMake that the project does not need compatibility with older versions.
+[0.021s] 
+[0.021s] [0m
+[0.073s] -- The C compiler identification is GNU 11.4.0
+[0.136s] -- The CXX compiler identification is GNU 11.4.0
+[0.146s] -- Detecting C compiler ABI info
+[0.214s] -- Detecting C compiler ABI info - done
+[0.225s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.225s] -- Detecting C compile features
+[0.226s] -- Detecting C compile features - done
+[0.231s] -- Detecting CXX compiler ABI info
+[0.312s] -- Detecting CXX compiler ABI info - done
+[0.324s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.324s] -- Detecting CXX compile features
+[0.325s] -- Detecting CXX compile features - done
+[0.336s] -- Build type not selected: Release selected by default
+[0.375s] [31mCMake Error at CMakeLists.txt:29 (find_package):
+[0.375s]   Could not find a configuration file for package "gazebo" that is compatible
+[0.375s]   with requested version "9".
+[0.375s] 
+[0.375s]   The following configuration files were considered but not accepted:
+[0.375s] 
+[0.375s]     /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake, version: 11.10.2
+[0.375s]     /lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake, version: 11.10.2
+[0.376s] 
+[0.376s] 
+[0.376s] [0m
+[0.376s] -- Configuring incomplete, errors occurred!
+[0.376s] See also "/home/minnie/gazebo_sim/citysim/build/citysim/CMakeFiles/CMakeOutput.log".
+[0.380s] Invoked command in '/home/minnie/gazebo_sim/citysim/build/citysim' returned '1': /usr/bin/cmake /home/minnie/gazebo_sim/citysim -DCMAKE_INSTALL_PREFIX=/home/minnie/gazebo_sim/citysim/install/citysim

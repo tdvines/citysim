@@ -1,0 +1,4 @@
+Invoking command in '/home/minnie/gazebo_sim/citysim/build/citysim': /usr/bin/cmake --build /home/minnie/gazebo_sim/citysim/build/citysim -- -j8 -l8
+Invoked command in '/home/minnie/gazebo_sim/citysim/build/citysim' returned '0': /usr/bin/cmake --build /home/minnie/gazebo_sim/citysim/build/citysim -- -j8 -l8
+Invoking command in '/home/minnie/gazebo_sim/citysim/build/citysim': /usr/bin/cmake --install /home/minnie/gazebo_sim/citysim/build/citysim
+Invoked command in '/home/minnie/gazebo_sim/citysim/build/citysim' returned '0': /usr/bin/cmake --install /home/minnie/gazebo_sim/citysim/build/citysim

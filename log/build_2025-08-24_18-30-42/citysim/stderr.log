@@ -1,0 +1,90 @@
+[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+[0m
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:29 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) in plugins/CMakeLists.txt:
+  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
+  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  For compatibility, CMake is excluding the header file(s):
+
+    "/home/minnie/gazebo_sim/citysim/plugins/LensFlareVisualPlugin.hh"
+
+  from processing by AUTOMOC.  If any of the files should be processed, set
+  CMP0100 to NEW.  If any of the files should not be processed, explicitly
+  exclude them by setting the source file property SKIP_AUTOMOC:
+
+    set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) in plugins/CMakeLists.txt:
+  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
+  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  For compatibility, CMake is excluding the header file(s):
+
+    "/home/minnie/gazebo_sim/citysim/plugins/BloomVisualPlugin.hh"
+
+  from processing by AUTOMOC.  If any of the files should be processed, set
+  CMP0100 to NEW.  If any of the files should not be processed, explicitly
+  exclude them by setting the source file property SKIP_AUTOMOC:
+
+    set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[33mCMake Warning (dev) in plugins/CMakeLists.txt:
+  Policy CMP0100 is not set: Let AUTOMOC and AUTOUIC process .hh files.  Run
+  "cmake --help-policy CMP0100" for policy details.  Use the cmake_policy
+  command to set the policy and suppress this warning.
+
+  For compatibility, CMake is excluding the header file(s):
+
+    "/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.hh"
+
+  from processing by AUTOMOC.  If any of the files should be processed, set
+  CMP0100 to NEW.  If any of the files should not be processed, explicitly
+  exclude them by setting the source file property SKIP_AUTOMOC:
+
+    set_property(SOURCE file.hh PROPERTY SKIP_AUTOMOC ON)
+
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:[m[K In member function ‘[01m[Kvoid gazebo::TrafficLightsGUIPlugin::OnKeyPress(ConstAnyPtr&)[m[K’:
+[01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:80:52:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kgazebo::common::Color[m[K’ used in nested name specifier
+   80 |   auto red = std::make_pair(gazebo::common::Color::[01;31m[KRed[m[K, "red");
+      |                                                    [01;31m[K^~~[m[K
+[01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:81:55:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kgazebo::common::Color[m[K’ used in nested name specifier
+   81 |   auto yellow = std::make_pair(gazebo::common::Color::[01;31m[KYellow[m[K, "yellow");
+      |                                                       [01;31m[K^~~~~~[m[K
+[01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:82:54:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kgazebo::common::Color[m[K’ used in nested name specifier
+   82 |   auto green = std::make_pair(gazebo::common::Color::[01;31m[KGreen[m[K, "green");
+      |                                                      [01;31m[K^~~~~[m[K
+[01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:83:39:[m[K [01;31m[Kerror: [m[Kincomplete type ‘[01m[Kgazebo::common::Color[m[K’ used in nested name specifier
+   83 |   auto black = gazebo::common::Color::[01;31m[KBlack[m[K;
+      |                                       [01;31m[K^~~~~[m[K
+[01m[K/home/minnie/gazebo_sim/citysim/plugins/TrafficLightsGUIPlugin.cc:92:40:[m[K [01;31m[Kerror: [m[Kunable to deduce ‘[01m[Kstd::initializer_list<auto>&&[m[K’ from ‘[01m[K{red, yellow, green}[m[K’
+   92 |       for (auto c : {red, yellow, green[01;31m[K}[m[K)
+      |                                        [01;31m[K^[m[K
+gmake[2]: *** [plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/build.make:90: plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:259: plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:156: all] Error 2

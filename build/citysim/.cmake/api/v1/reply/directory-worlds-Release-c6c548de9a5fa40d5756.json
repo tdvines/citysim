@@ -1,0 +1,44 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"worlds/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/worlds",
+			"paths" : 
+			[
+				"worlds/rendering.world",
+				"worlds/simple_city.world"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "worlds",
+		"source" : "worlds"
+	}
+}

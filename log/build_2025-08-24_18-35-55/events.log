@@ -1,0 +1,347 @@
+[0.000000] (-) TimerEvent: {}
+[0.000288] (citysim) JobQueued: {'identifier': 'citysim', 'dependencies': OrderedDict()}
+[0.000403] (citysim) JobStarted: {'identifier': 'citysim'}
+[0.007983] (citysim) JobProgress: {'identifier': 'citysim', 'progress': 'cmake'}
+[0.008878] (citysim) JobProgress: {'identifier': 'citysim', 'progress': 'build'}
+[0.009805] (citysim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/minnie/gazebo_sim/citysim/build/citysim', '--', '-j8', '-l8'], 'cwd': '/home/minnie/gazebo_sim/citysim/build/citysim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'minnie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/minnie'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '107828'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'minnie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'minnie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/minnie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minnie-ThinkPad:@/tmp/.ICE-unix/2047,unix/minnie-ThinkPad:/tmp/.ICE-unix/2047'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82fd5cba_3751_4a22_bea9_e454d2ddec7e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.216'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/minnie/gazebo_sim/citysim/build/citysim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[0.058994] (citysim) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mAutomatic MOC for target BloomVisualPlugin\x1b[0m\n'}
+[0.059323] (citysim) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mAutomatic MOC for target LensFlareVisualPlugin\x1b[0m\n'}
+[0.059525] (citysim) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mAutomatic MOC for target TrafficLightsGUIPlugin\x1b[0m\n'}
+[0.075988] (citysim) StdoutLine: {'line': b'[ 25%] Built target LensFlareVisualPlugin_autogen\n'}
+[0.076385] (citysim) StdoutLine: {'line': b'[ 25%] Built target BloomVisualPlugin_autogen\n'}
+[0.076581] (citysim) StdoutLine: {'line': b'[ 25%] Built target TrafficLightsGUIPlugin_autogen\n'}
+[0.088113] (citysim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target BloomVisualPlugin\x1b[0m\n'}
+[0.088345] (citysim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target LensFlareVisualPlugin\x1b[0m\n'}
+[0.088801] (citysim) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target TrafficLightsGUIPlugin\x1b[0m\n'}
+[0.098898] (-) TimerEvent: {}
+[0.130780] (citysim) StdoutLine: {'line': b'[ 50%] Built target LensFlareVisualPlugin\n'}
+[0.131729] (citysim) StdoutLine: {'line': b'[ 75%] Built target BloomVisualPlugin\n'}
+[0.144745] (citysim) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object plugins/CMakeFiles/TrafficLightsGUIPlugin.dir/TrafficLightsGUIPlugin.cc.o\x1b[0m\n'}
+[0.199027] (-) TimerEvent: {}
+[0.299391] (-) TimerEvent: {}
+[0.399749] (-) TimerEvent: {}
+[0.500111] (-) TimerEvent: {}
+[0.600468] (-) TimerEvent: {}
+[0.700811] (-) TimerEvent: {}
+[0.801155] (-) TimerEvent: {}
+[0.901496] (-) TimerEvent: {}
+[1.001845] (-) TimerEvent: {}
+[1.102198] (-) TimerEvent: {}
+[1.202545] (-) TimerEvent: {}
+[1.302914] (-) TimerEvent: {}
+[1.403279] (-) TimerEvent: {}
+[1.503636] (-) TimerEvent: {}
+[1.603998] (-) TimerEvent: {}
+[1.704357] (-) TimerEvent: {}
+[1.804717] (-) TimerEvent: {}
+[1.905069] (-) TimerEvent: {}
+[2.005420] (-) TimerEvent: {}
+[2.105786] (-) TimerEvent: {}
+[2.206129] (-) TimerEvent: {}
+[2.306478] (-) TimerEvent: {}
+[2.406830] (-) TimerEvent: {}
+[2.507184] (-) TimerEvent: {}
+[2.607531] (-) TimerEvent: {}
+[2.707902] (-) TimerEvent: {}
+[2.808467] (-) TimerEvent: {}
+[2.908826] (-) TimerEvent: {}
+[3.009186] (-) TimerEvent: {}
+[3.109555] (-) TimerEvent: {}
+[3.209900] (-) TimerEvent: {}
+[3.310252] (-) TimerEvent: {}
+[3.410604] (-) TimerEvent: {}
+[3.510956] (-) TimerEvent: {}
+[3.611299] (-) TimerEvent: {}
+[3.711648] (-) TimerEvent: {}
+[3.811984] (-) TimerEvent: {}
+[3.912353] (-) TimerEvent: {}
+[4.012704] (-) TimerEvent: {}
+[4.113048] (-) TimerEvent: {}
+[4.213386] (-) TimerEvent: {}
+[4.313718] (-) TimerEvent: {}
+[4.414048] (-) TimerEvent: {}
+[4.514394] (-) TimerEvent: {}
+[4.614739] (-) TimerEvent: {}
+[4.715087] (-) TimerEvent: {}
+[4.815434] (-) TimerEvent: {}
+[4.915775] (-) TimerEvent: {}
+[5.016118] (-) TimerEvent: {}
+[5.116461] (-) TimerEvent: {}
+[5.216799] (-) TimerEvent: {}
+[5.317139] (-) TimerEvent: {}
+[5.417480] (-) TimerEvent: {}
+[5.517821] (-) TimerEvent: {}
+[5.618159] (-) TimerEvent: {}
+[5.718488] (-) TimerEvent: {}
+[5.818836] (-) TimerEvent: {}
+[5.919174] (-) TimerEvent: {}
+[6.019505] (-) TimerEvent: {}
+[6.119837] (-) TimerEvent: {}
+[6.220211] (-) TimerEvent: {}
+[6.320562] (-) TimerEvent: {}
+[6.420911] (-) TimerEvent: {}
+[6.521256] (-) TimerEvent: {}
+[6.621598] (-) TimerEvent: {}
+[6.721939] (-) TimerEvent: {}
+[6.822268] (-) TimerEvent: {}
+[6.922571] (-) TimerEvent: {}
+[7.022931] (-) TimerEvent: {}
+[7.123270] (-) TimerEvent: {}
+[7.223620] (-) TimerEvent: {}
+[7.323983] (-) TimerEvent: {}
+[7.424326] (-) TimerEvent: {}
+[7.524672] (-) TimerEvent: {}
+[7.625016] (-) TimerEvent: {}
+[7.725359] (-) TimerEvent: {}
+[7.825701] (-) TimerEvent: {}
+[7.926052] (-) TimerEvent: {}
+[8.026394] (-) TimerEvent: {}
+[8.126756] (-) TimerEvent: {}
+[8.227106] (-) TimerEvent: {}
+[8.327455] (-) TimerEvent: {}
+[8.427798] (-) TimerEvent: {}
+[8.528177] (-) TimerEvent: {}
+[8.628522] (-) TimerEvent: {}
+[8.728875] (-) TimerEvent: {}
+[8.829228] (-) TimerEvent: {}
+[8.929584] (-) TimerEvent: {}
+[9.029931] (-) TimerEvent: {}
+[9.130283] (-) TimerEvent: {}
+[9.230629] (-) TimerEvent: {}
+[9.330983] (-) TimerEvent: {}
+[9.431342] (-) TimerEvent: {}
+[9.531707] (-) TimerEvent: {}
+[9.632066] (-) TimerEvent: {}
+[9.732406] (-) TimerEvent: {}
+[9.832743] (-) TimerEvent: {}
+[9.933101] (-) TimerEvent: {}
+[10.033444] (-) TimerEvent: {}
+[10.133795] (-) TimerEvent: {}
+[10.234143] (-) TimerEvent: {}
+[10.334482] (-) TimerEvent: {}
+[10.434838] (-) TimerEvent: {}
+[10.535189] (-) TimerEvent: {}
+[10.635545] (-) TimerEvent: {}
+[10.735912] (-) TimerEvent: {}
+[10.836250] (-) TimerEvent: {}
+[10.936597] (-) TimerEvent: {}
+[11.036950] (-) TimerEvent: {}
+[11.137310] (-) TimerEvent: {}
+[11.237690] (-) TimerEvent: {}
+[11.338041] (-) TimerEvent: {}
+[11.438400] (-) TimerEvent: {}
+[11.538749] (-) TimerEvent: {}
+[11.639099] (-) TimerEvent: {}
+[11.739449] (-) TimerEvent: {}
+[11.839799] (-) TimerEvent: {}
+[11.940158] (-) TimerEvent: {}
+[12.040518] (-) TimerEvent: {}
+[12.140861] (-) TimerEvent: {}
+[12.241221] (-) TimerEvent: {}
+[12.341577] (-) TimerEvent: {}
+[12.441944] (-) TimerEvent: {}
+[12.542303] (-) TimerEvent: {}
+[12.642667] (-) TimerEvent: {}
+[12.743024] (-) TimerEvent: {}
+[12.843368] (-) TimerEvent: {}
+[12.943710] (-) TimerEvent: {}
+[13.044068] (-) TimerEvent: {}
+[13.144421] (-) TimerEvent: {}
+[13.244824] (-) TimerEvent: {}
+[13.345168] (-) TimerEvent: {}
+[13.445525] (-) TimerEvent: {}
+[13.545877] (-) TimerEvent: {}
+[13.646231] (-) TimerEvent: {}
+[13.746584] (-) TimerEvent: {}
+[13.846938] (-) TimerEvent: {}
+[13.947282] (-) TimerEvent: {}
+[14.047616] (-) TimerEvent: {}
+[14.147975] (-) TimerEvent: {}
+[14.248331] (-) TimerEvent: {}
+[14.348677] (-) TimerEvent: {}
+[14.449021] (-) TimerEvent: {}
+[14.549400] (-) TimerEvent: {}
+[14.649729] (-) TimerEvent: {}
+[14.750067] (-) TimerEvent: {}
+[14.850415] (-) TimerEvent: {}
+[14.950732] (-) TimerEvent: {}
+[15.051086] (-) TimerEvent: {}
+[15.151416] (-) TimerEvent: {}
+[15.251753] (-) TimerEvent: {}
+[15.352127] (-) TimerEvent: {}
+[15.452458] (-) TimerEvent: {}
+[15.552795] (-) TimerEvent: {}
+[15.653132] (-) TimerEvent: {}
+[15.753470] (-) TimerEvent: {}
+[15.853805] (-) TimerEvent: {}
+[15.954140] (-) TimerEvent: {}
+[16.054477] (-) TimerEvent: {}
+[16.154815] (-) TimerEvent: {}
+[16.255154] (-) TimerEvent: {}
+[16.355488] (-) TimerEvent: {}
+[16.455826] (-) TimerEvent: {}
+[16.556200] (-) TimerEvent: {}
+[16.656544] (-) TimerEvent: {}
+[16.756890] (-) TimerEvent: {}
+[16.857235] (-) TimerEvent: {}
+[16.957571] (-) TimerEvent: {}
+[17.057914] (-) TimerEvent: {}
+[17.158253] (-) TimerEvent: {}
+[17.258616] (-) TimerEvent: {}
+[17.358957] (-) TimerEvent: {}
+[17.459298] (-) TimerEvent: {}
+[17.559639] (-) TimerEvent: {}
+[17.659959] (-) TimerEvent: {}
+[17.760300] (-) TimerEvent: {}
+[17.860641] (-) TimerEvent: {}
+[17.961005] (-) TimerEvent: {}
+[18.061344] (-) TimerEvent: {}
+[18.161683] (-) TimerEvent: {}
+[18.262027] (-) TimerEvent: {}
+[18.362370] (-) TimerEvent: {}
+[18.462723] (-) TimerEvent: {}
+[18.563065] (-) TimerEvent: {}
+[18.663407] (-) TimerEvent: {}
+[18.763747] (-) TimerEvent: {}
+[18.864123] (-) TimerEvent: {}
+[18.964480] (-) TimerEvent: {}
+[19.064820] (-) TimerEvent: {}
+[19.165159] (-) TimerEvent: {}
+[19.265503] (-) TimerEvent: {}
+[19.365866] (-) TimerEvent: {}
+[19.466216] (-) TimerEvent: {}
+[19.566573] (-) TimerEvent: {}
+[19.666915] (-) TimerEvent: {}
+[19.767265] (-) TimerEvent: {}
+[19.867619] (-) TimerEvent: {}
+[19.967968] (-) TimerEvent: {}
+[20.068331] (-) TimerEvent: {}
+[20.168676] (-) TimerEvent: {}
+[20.269016] (-) TimerEvent: {}
+[20.369356] (-) TimerEvent: {}
+[20.469697] (-) TimerEvent: {}
+[20.570043] (-) TimerEvent: {}
+[20.670387] (-) TimerEvent: {}
+[20.770733] (-) TimerEvent: {}
+[20.871071] (-) TimerEvent: {}
+[20.971415] (-) TimerEvent: {}
+[21.071776] (-) TimerEvent: {}
+[21.172161] (-) TimerEvent: {}
+[21.272509] (-) TimerEvent: {}
+[21.372847] (-) TimerEvent: {}
+[21.473201] (-) TimerEvent: {}
+[21.573538] (-) TimerEvent: {}
+[21.673884] (-) TimerEvent: {}
+[21.774229] (-) TimerEvent: {}
+[21.874575] (-) TimerEvent: {}
+[21.974903] (-) TimerEvent: {}
+[22.075237] (-) TimerEvent: {}
+[22.175574] (-) TimerEvent: {}
+[22.275941] (-) TimerEvent: {}
+[22.376293] (-) TimerEvent: {}
+[22.476634] (-) TimerEvent: {}
+[22.576966] (-) TimerEvent: {}
+[22.677300] (-) TimerEvent: {}
+[22.777639] (-) TimerEvent: {}
+[22.877964] (-) TimerEvent: {}
+[22.978299] (-) TimerEvent: {}
+[23.078627] (-) TimerEvent: {}
+[23.178946] (-) TimerEvent: {}
+[23.279281] (-) TimerEvent: {}
+[23.379622] (-) TimerEvent: {}
+[23.479974] (-) TimerEvent: {}
+[23.580310] (-) TimerEvent: {}
+[23.680648] (-) TimerEvent: {}
+[23.780983] (-) TimerEvent: {}
+[23.881311] (-) TimerEvent: {}
+[23.981635] (-) TimerEvent: {}
+[24.081983] (-) TimerEvent: {}
+[24.182349] (-) TimerEvent: {}
+[24.282693] (-) TimerEvent: {}
+[24.383026] (-) TimerEvent: {}
+[24.483372] (-) TimerEvent: {}
+[24.577774] (citysim) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking CXX shared library libTrafficLightsGUIPlugin.so\x1b[0m\n'}
+[24.583483] (-) TimerEvent: {}
+[24.683856] (-) TimerEvent: {}
+[24.784282] (-) TimerEvent: {}
+[24.884663] (-) TimerEvent: {}
+[24.985037] (-) TimerEvent: {}
+[25.085467] (-) TimerEvent: {}
+[25.185877] (-) TimerEvent: {}
+[25.286259] (-) TimerEvent: {}
+[25.386646] (-) TimerEvent: {}
+[25.487018] (-) TimerEvent: {}
+[25.535962] (citysim) StdoutLine: {'line': b'[100%] Built target TrafficLightsGUIPlugin\n'}
+[25.550115] (citysim) CommandEnded: {'returncode': 0}
+[25.551953] (citysim) JobProgress: {'identifier': 'citysim', 'progress': 'install'}
+[25.562049] (citysim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/minnie/gazebo_sim/citysim/build/citysim'], 'cwd': '/home/minnie/gazebo_sim/citysim/build/citysim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'minnie'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/minnie'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '107828'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'minnie'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'minnie'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/minnie/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/minnie-ThinkPad:@/tmp/.ICE-unix/2047,unix/minnie-ThinkPad:/tmp/.ICE-unix/2047'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/82fd5cba_3751_4a22_bea9_e454d2ddec7e'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.216'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/minnie/gazebo_sim/citysim/build/citysim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800')]), 'shell': False}
+[25.569991] (citysim) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[25.570312] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/setup.sh\n'}
+[25.570667] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim/setup.sh\n'}
+[25.571302] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/lib/citysim-0/plugins/libLensFlareVisualPlugin.so\n'}
+[25.572237] (citysim) StdoutLine: {'line': b'-- Set runtime path of "/home/minnie/gazebo_sim/citysim/install/citysim/lib/citysim-0/plugins/libLensFlareVisualPlugin.so" to ""\n'}
+[25.572516] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/lib/citysim-0/plugins/libBloomVisualPlugin.so\n'}
+[25.573286] (citysim) StdoutLine: {'line': b'-- Set runtime path of "/home/minnie/gazebo_sim/citysim/install/citysim/lib/citysim-0/plugins/libBloomVisualPlugin.so" to ""\n'}
+[25.573549] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/lib/citysim-0/plugins/libTrafficLightsGUIPlugin.so\n'}
+[25.574508] (citysim) StdoutLine: {'line': b'-- Set runtime path of "/home/minnie/gazebo_sim/citysim/install/citysim/lib/citysim-0/plugins/libTrafficLightsGUIPlugin.so" to ""\n'}
+[25.574766] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor\n'}
+[25.574972] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/model.sdf\n'}
+[25.575186] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/model.config\n'}
+[25.575415] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes\n'}
+[25.575539] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_talking_b.dae\n'}
+[25.587127] (-) TimerEvent: {}
+[25.587431] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_running.dae\n'}
+[25.590008] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_talking_a.dae\n'}
+[25.600996] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_walking.dae\n'}
+[25.603069] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_green_shirt.dae\n'}
+[25.605162] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_blue_shirt.dae\n'}
+[25.607119] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_red_shirt.dae\n'}
+[25.610559] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain\n'}
+[25.611244] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/model.sdf\n'}
+[25.611866] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/model.config\n'}
+[25.612104] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/materials\n'}
+[25.612204] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/materials/textures\n'}
+[25.612300] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/materials/textures/forest.jpg\n'}
+[25.617084] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/materials/textures/city_terrain.jpg\n'}
+[25.617376] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/materials/textures/city_terrain (original).jpg\n'}
+[25.617637] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean\n'}
+[25.617940] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/model.sdf\n'}
+[25.618059] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/model.config\n'}
+[25.618191] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/mesh_below.dae\n'}
+[25.618375] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/mesh.blend\n'}
+[25.619587] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/mesh.dae\n'}
+[25.620249] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials\n'}
+[25.620379] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/scripts\n'}
+[25.620511] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/scripts/ocean.material\n'}
+[25.620640] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/programs\n'}
+[25.620753] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL\n'}
+[25.620879] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL/Waves.frag\n'}
+[25.620990] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL/Waves.vert\n'}
+[25.621108] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures\n'}
+[25.621221] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds.jpg\n'}
+[25.621333] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_lf.jpg\n'}
+[25.621443] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_dn.jpg\n'}
+[25.621534] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_rt.jpg\n'}
+[25.621644] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/License and source soil_sand_0045_01.txt\n'}
+[25.621735] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_up.jpg\n'}
+[25.621825] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/soil_sand_0045_01.jpg\n'}
+[25.625792] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/normals.dds\n'}
+[25.626174] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_bk.jpg\n'}
+[25.626397] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_fr.jpg\n'}
+[25.626588] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/mesh-simple.dae\n'}
+[25.627157] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/worlds/rendering.world\n'}
+[25.627319] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/worlds/simple_city.world\n'}
+[25.628323] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/scripts/Bloom2.compositor\n'}
+[25.628584] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/scripts/Bloom2.material\n'}
+[25.628713] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/scripts/StdQuad_vp.program\n'}
+[25.628811] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/scripts/citysim.material\n'}
+[25.628936] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/Bloom2_ps20.glsl\n'}
+[25.629077] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/BlurH_ps20.glsl\n'}
+[25.629223] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/BlurV_ps20.glsl\n'}
+[25.629334] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/Blur_vs.glsl\n'}
+[25.629443] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/BrightBloom2_ps20.glsl\n'}
+[25.629564] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/StdQuad_Tex2a_vp.glsl\n'}
+[25.629660] (citysim) StdoutLine: {'line': b'-- Installing: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/StdQuad_vp.glsl\n'}
+[25.631381] (citysim) CommandEnded: {'returncode': 0}
+[25.650086] (citysim) JobEnded: {'identifier': 'citysim', 'rc': 0}
+[25.651295] (-) EventReactorShutdown: {}

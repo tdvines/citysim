@@ -1,0 +1,4 @@
+Invoking command in '/home/minnie/gazebo_sim/citysim/build/citysim': /usr/bin/cmake /home/minnie/gazebo_sim/citysim -DCMAKE_INSTALL_PREFIX=/home/minnie/gazebo_sim/citysim/install/citysim
+Invoked command in '/home/minnie/gazebo_sim/citysim/build/citysim' returned '0': /usr/bin/cmake /home/minnie/gazebo_sim/citysim -DCMAKE_INSTALL_PREFIX=/home/minnie/gazebo_sim/citysim/install/citysim
+Invoking command in '/home/minnie/gazebo_sim/citysim/build/citysim': /usr/bin/cmake --build /home/minnie/gazebo_sim/citysim/build/citysim -- -j8 -l8
+Invoked command in '/home/minnie/gazebo_sim/citysim/build/citysim' returned '2': /usr/bin/cmake --build /home/minnie/gazebo_sim/citysim/build/citysim -- -j8 -l8

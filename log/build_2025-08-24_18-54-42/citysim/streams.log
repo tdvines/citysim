@@ -1,0 +1,77 @@
+[0.011s] Invoking command in '/home/minnie/gazebo_sim/citysim/build/citysim': /usr/bin/cmake --build /home/minnie/gazebo_sim/citysim/build/citysim -- -j8 -l8
+[0.065s] [ 25%] [34m[1mAutomatic MOC for target LensFlareVisualPlugin[0m
+[0.065s] [ 25%] [34m[1mAutomatic MOC for target TrafficLightsGUIPlugin[0m
+[0.065s] [ 25%] [34m[1mAutomatic MOC for target BloomVisualPlugin[0m
+[0.081s] [ 25%] Built target LensFlareVisualPlugin_autogen
+[0.082s] [ 25%] Built target TrafficLightsGUIPlugin_autogen
+[0.082s] [ 25%] Built target BloomVisualPlugin_autogen
+[0.109s] [35m[1mConsolidate compiler generated dependencies of target TrafficLightsGUIPlugin[0m
+[0.125s] [ 58%] Built target LensFlareVisualPlugin
+[0.125s] [ 75%] Built target BloomVisualPlugin
+[0.160s] [100%] Built target TrafficLightsGUIPlugin
+[0.170s] Invoked command in '/home/minnie/gazebo_sim/citysim/build/citysim' returned '0': /usr/bin/cmake --build /home/minnie/gazebo_sim/citysim/build/citysim -- -j8 -l8
+[0.180s] Invoking command in '/home/minnie/gazebo_sim/citysim/build/citysim': /usr/bin/cmake --install /home/minnie/gazebo_sim/citysim/build/citysim
+[0.188s] -- Install configuration: "Release"
+[0.188s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/setup.sh
+[0.188s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim/setup.sh
+[0.188s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/lib/citysim-0/plugins/libLensFlareVisualPlugin.so
+[0.188s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/lib/citysim-0/plugins/libBloomVisualPlugin.so
+[0.189s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/lib/citysim-0/plugins/libTrafficLightsGUIPlugin.so
+[0.189s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor
+[0.189s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/model.sdf
+[0.190s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/model.config
+[0.190s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes
+[0.190s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_talking_b.dae
+[0.190s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_running.dae
+[0.190s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_talking_a.dae
+[0.190s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/ANIMATION_walking.dae
+[0.190s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_green_shirt.dae
+[0.191s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_blue_shirt.dae
+[0.191s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/actor/meshes/SKIN_man_red_shirt.dae
+[0.191s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain
+[0.191s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/model.sdf
+[0.191s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/model.config
+[0.191s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/materials
+[0.191s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/materials/textures
+[0.191s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/materials/textures/forest.jpg
+[0.191s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/materials/textures/city_terrain.jpg
+[0.192s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/city_terrain/materials/textures/city_terrain (original).jpg
+[0.192s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean
+[0.192s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/model.sdf
+[0.192s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/model.config
+[0.192s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/mesh_below.dae
+[0.192s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/mesh.blend
+[0.192s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/mesh.dae
+[0.192s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials
+[0.192s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/scripts
+[0.193s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/scripts/ocean.material
+[0.193s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/programs
+[0.193s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL
+[0.194s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL/Waves.frag
+[0.194s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/programs/GLSL/Waves.vert
+[0.194s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures
+[0.194s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds.jpg
+[0.195s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_lf.jpg
+[0.195s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_dn.jpg
+[0.195s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_rt.jpg
+[0.195s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/License and source soil_sand_0045_01.txt
+[0.196s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_up.jpg
+[0.196s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/soil_sand_0045_01.jpg
+[0.196s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/normals.dds
+[0.196s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_bk.jpg
+[0.196s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/materials/textures/clouds_fr.jpg
+[0.196s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/models/ocean/mesh-simple.dae
+[0.197s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/worlds/rendering.world
+[0.197s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/worlds/simple_city.world
+[0.197s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/scripts/Bloom2.compositor
+[0.197s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/scripts/Bloom2.material
+[0.197s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/scripts/StdQuad_vp.program
+[0.197s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/scripts/citysim.material
+[0.198s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/Bloom2_ps20.glsl
+[0.198s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/BlurH_ps20.glsl
+[0.198s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/BlurV_ps20.glsl
+[0.198s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/Blur_vs.glsl
+[0.198s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/BrightBloom2_ps20.glsl
+[0.199s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/StdQuad_Tex2a_vp.glsl
+[0.199s] -- Up-to-date: /home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs/StdQuad_vp.glsl
+[0.199s] Invoked command in '/home/minnie/gazebo_sim/citysim/build/citysim' returned '0': /usr/bin/cmake --install /home/minnie/gazebo_sim/citysim/build/citysim
