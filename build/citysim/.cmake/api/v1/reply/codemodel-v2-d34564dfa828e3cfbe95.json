@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-fa781bf22a6fdab15ec2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "plugins",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-plugins-Release-62330e57711cf642c09e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "plugins",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				},
+				{
+					"build" : "models",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-models-Release-a08c943adee8b823c7a0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "models"
+				},
+				{
+					"build" : "worlds",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-worlds-Release-c6c548de9a5fa40d5756.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "worlds"
+				},
+				{
+					"build" : "media",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-media-Release-1ac800441d1a0b25ac83.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "media"
+				},
+				{
+					"build" : "media/materials",
+					"childIndexes" : 
+					[
+						6,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-media.materials-Release-645d40f2b3bc525da344.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 0,
+					"source" : "media/materials"
+				},
+				{
+					"build" : "media/materials/scripts",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-media.materials.scripts-Release-cdf9b9729a16ebad90ae.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "media/materials/scripts"
+				},
+				{
+					"build" : "media/materials/programs",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-media.materials.programs-Release-fde2c0b2471ef0d7ce2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10.2"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "media/materials/programs"
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"name" : "citysim",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "BloomVisualPlugin::@e73236870873ac66af4c",
+					"jsonFile" : "target-BloomVisualPlugin-Release-761619cc2f03c7bc4ace.json",
+					"name" : "BloomVisualPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "BloomVisualPlugin_autogen::@e73236870873ac66af4c",
+					"jsonFile" : "target-BloomVisualPlugin_autogen-Release-798e9517c43c8b02a9e9.json",
+					"name" : "BloomVisualPlugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LensFlareVisualPlugin::@e73236870873ac66af4c",
+					"jsonFile" : "target-LensFlareVisualPlugin-Release-d372576b66c9f19be08a.json",
+					"name" : "LensFlareVisualPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "LensFlareVisualPlugin_autogen::@e73236870873ac66af4c",
+					"jsonFile" : "target-LensFlareVisualPlugin_autogen-Release-99aeaab10766c41e31c2.json",
+					"name" : "LensFlareVisualPlugin_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TrafficLightsGUIPlugin::@e73236870873ac66af4c",
+					"jsonFile" : "target-TrafficLightsGUIPlugin-Release-f278f744916b6158b395.json",
+					"name" : "TrafficLightsGUIPlugin",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "TrafficLightsGUIPlugin_autogen::@e73236870873ac66af4c",
+					"jsonFile" : "target-TrafficLightsGUIPlugin_autogen-Release-9c98a936bc19f8ac70cd.json",
+					"name" : "TrafficLightsGUIPlugin_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/minnie/gazebo_sim/citysim/build/citysim",
+		"source" : "/home/minnie/gazebo_sim/citysim"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

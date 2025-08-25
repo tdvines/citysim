@@ -1,0 +1,49 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"media/materials/programs/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/home/minnie/gazebo_sim/citysim/install/citysim/share/citysim-0/media/materials/programs",
+			"paths" : 
+			[
+				"media/materials/programs/Bloom2_ps20.glsl",
+				"media/materials/programs/BlurH_ps20.glsl",
+				"media/materials/programs/BlurV_ps20.glsl",
+				"media/materials/programs/Blur_vs.glsl",
+				"media/materials/programs/BrightBloom2_ps20.glsl",
+				"media/materials/programs/StdQuad_Tex2a_vp.glsl",
+				"media/materials/programs/StdQuad_vp.glsl"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "media/materials/programs",
+		"source" : "media/materials/programs"
+	}
+}
